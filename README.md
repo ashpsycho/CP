@@ -1,1 +1,3 @@
-# CP 
+# Competitive Programming
+
+while(!isRed())practice();
