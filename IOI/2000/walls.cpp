@@ -27,11 +27,15 @@ int main(){
 	for(i=0;i<m;i++)
 		for(j=0;j<m;j++)neigh1[i][j]=0;
 	for(i=1;i<=((n*(n-1))/2);i++){
-		for(j=0;j<adj[i].size();j++)
+		cout<<i<<" llooooooooooooooooll\n";
+		for(j=0;j<adj[i].size();j++){
+			cout<<adj[i][j]<<" ";
 			for(k=0;k<adj[i].size();k++){
 				if(j==k)continue;
 				neigh1[adj[i][j]][adj[i][k]]=1;
 			}
+		}
+		cout<<"\n";
 	}
 	for(i=0;i<m;i++){
 		for(j=0;j<m;j++){
