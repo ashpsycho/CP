@@ -1,6 +1,10 @@
 tough
 638 - 250
 
-
 trickyyyyyy
 639 - 250 
+645 - 250
+
+topics to practice a lot:-
+geometry ( SRM 641, 250)
+graph theory ()

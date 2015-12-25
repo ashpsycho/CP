@@ -4,6 +4,8 @@
 #define y second
 #define MAX 100001
 using namespace std;
+
+long long mod=1000000007;
 class X{
 	public:
 	type fn_name(param){
