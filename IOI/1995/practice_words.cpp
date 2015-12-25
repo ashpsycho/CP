@@ -2,15 +2,13 @@
 #define T pair<int,int>
 #define x first
 #define y second
-#define MAX 700001
+#define MAX 400001
 using namespace std;
 int main(){
 	static int t,te,i=0,j,k,n,m,ans[MAX],len[MAX],fin,finle=0;
-	string s;
-	vector<string> arr;
+	static string s,arr[MAX];
 	while(cin>>s && s!="."){
-		i++;
-		arr.push_back(s);
+		arr[i++]=s;
 		for(j=i-2;j>=0 && arr[j][0]==arr[i-1][0];j--){
 			if(arr[j]==arr[i-1].substr(0,arr[j].size()))break;
 		}

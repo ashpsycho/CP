@@ -6,12 +6,12 @@
 using namespace std;
 int main(){
 	long long t,te,i,j,k,n,m,ans,arr[MAX],mi=0,ma=3000000000LL,pre,curr;
-	vector<int>v;
+	vector<long long>v;
 	cin>>n;
 	v.push_back(0);
 	v.push_back(0);
 	cin>>pre;
-	for(i=0;i<n;i++){
+	for(i=0;i<(n-1);i++){
 		cin>>curr;
 		if(curr<pre)break;
 		v.push_back(v[0]+2*(curr-pre));
@@ -22,15 +22,14 @@ int main(){
 			if(v[1]>v[2])break;
 			ma=min(ma,v[2]-v[1]);
 		}
-
-		v.erase(0);
+		
+		v.erase(v.begin());
 		pre=curr;
 	}
-	if(i<n){
+	if(i<(n-1)){
 		cout<<"0\n";
 		return 0;
 	}
-
 	ans=(ma/2)+1-(mi/2);
 	if(ans<0)ans=0;
 	cout<<ans<<"\n";

@@ -25,21 +25,21 @@ int main(){
 		for(j=ans=0;(j+i)<=n;j++){
 			for(k=0;(k+i)<=n;k++){
 				if(j==0 && k==0){
-					if(sum[i-1][i-1]==0)ans++;
+					if(sum[i-1][i-1]==(i*i))ans++;
 				}
 				else if(j==0){
-					if((sum[i-1][i+k-1]-sum[i-1][k-1])==(n*n))ans++;
+					if((sum[i-1][i+k-1]-sum[i-1][k-1])==(i*i))ans++;
 				}
 				else if(k==0){
-					if((sum[i+j-1][i-1]-sum[j-1][i-1])==(n*n))ans++;
+					if((sum[i+j-1][i-1]-sum[j-1][i-1])==(i*i))ans++;
 				}
 				else{
-					if((sum[i+j-1][i+k-1]+sum[j-1][k-1])==(n*n+sum[i+j-1][k-1]+sum[j-1][i+k-1]))ans++;
+					if((sum[i+j-1][i+k-1]+sum[j-1][k-1])==(i*i+sum[i+j-1][k-1]+sum[j-1][i+k-1]))ans++;
 				}
 			}
 		}
 		if(ans)break;
 	}
-	cout<<ans*n*n<<"\n";
+	cout<<ans*i<<"\n";
 	return 0;
 }
