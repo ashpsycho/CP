@@ -1,9 +1,11 @@
 tough
 638 - 250
+641 - 250 (still cannot do it)
 
 trickyyyyyy
 639 - 250 
 645 - 250
+677 - 250 (did live, missed 1 single case :'( )
 
 topics to practice a lot:-
 geometry ( SRM 641, 250)
