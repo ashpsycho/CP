@@ -4,7 +4,12 @@
 #define y second
 #define MAX 100001
 using namespace std;
-
+class compare{
+	public:
+	bool operator()(TT &a, TT &b){
+		return (a.y>b.y);
+	}
+};
 long long mod=1000000007;
 class X{
 	public:
