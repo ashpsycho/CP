@@ -32,9 +32,7 @@ int main(){
 					ans[i][j]=min(ans[i][j],ans[i][j-types[k].y]+ans[i-types[k].x][types[k].y]);
 				}
 			}
-			cout<<ans[i][j]<<" ";
 		}
-		cout<<"\n";
 	}
 
 	cout<<ans[W][H];

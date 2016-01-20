@@ -5,11 +5,11 @@
 #define MAX 100001
 using namespace std;
 int main(){
-	int i,j,k,n,m,ans,arr[MAX];
-	cin>>n>>m;
-	for(i=0;i<n;i++){
-		cin>>arr[i];
+	int t,te,i,j,k,n,m,ans,arr[MAX];
+	cin>>t;
+	for(te=0;te<t;te++){
+		cin>>n;
+		cout<<ans<<"\n";
 	}
-	cout<<ans<<"\n";
 	return 0;
 }
