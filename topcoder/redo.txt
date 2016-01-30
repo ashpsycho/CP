@@ -1,11 +1,14 @@
 tough
 638 - 250
 641 - 250 (still cannot do it)
+653 - 250 (do redo)
 
 trickyyyyyy
 639 - 250 
 645 - 250
+653 - 250 (do redo manyyyyyyyyy times)
 677 - 250 (did live, missed 1 single case :'( )
+654 - div2_1000 (missed one case, do better next time)
 
 topics to practice a lot:-
 geometry ( SRM 641, 250)
