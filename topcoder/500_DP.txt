@@ -9,7 +9,6 @@
 	AlbertoTheAviator	SRM 610	02.25.2014	brunoja	Dynamic Programming, Greedy	2	51.31%			details	
 	BigO	SRM 608	02.07.2014	rng_58	Dynamic Programming, Graph Theory	2	57.84%			details	
 	CombinationLockDiv1	SRM 607	02.03.2014	Wheeler	Dynamic Programming	2	17.34%			details	
-	AlienAndSetDiv1	SRM 605	01.21.2014	Witaliy	Dynamic Programming	2	70.59%			details	
 	FoxConnection	SRM 604	01.11.2014	cgy4ever	Dynamic Programming	2	11.11%			details	
 	PairsOfStrings	SRM 603	01.06.2014	lyrically	Dynamic Programming, Math	2	85.12%			details	
 	WinterAndSnowmen	SRM 601	12.22.2013	Witaliy	Dynamic Programming	2	76.39%			details	
@@ -31,7 +30,12 @@
 	TheExperiment	SRM 576	04.11.2013	gojira_tc	Dynamic Programming	2	83.93%			details	
 	PolygonTraversal	SRM 574	03.25.2013	gojira_tc	Dynamic Programming, Geometry	2	78.27%			details	
 	PenguinEmperor	SRM 566	01.12.2013	tehqin	Dynamic Programming, Simulation	2	79.39%			details	
-//Sieve + Inetger Overflow	TheDivisionGame	SRM 565	12.20.2012	gojira_tc	Dynamic Programming, Math	2	67.63%			details	
 	SpellCards	SRM 563	12.08.2012	cgy4ever	Dynamic Programming	2	76.15%			details	
 	LeftRightDigitsGame2	SRM 556	09.13.2012	fushar	Dynamic Programming, Simple Math, String Manipulation	2	43.78%			details	
-	TwoConvexShapes	SRM 553	08.22.2012	vexorian	Dynamic Programming	2	63.33%			details	
+
+Do Later:
+						TwoConvexShapes	SRM 553	08.22.2012	vexorian	Dynamic Programming	2	63.33%			details	
+(so close yet so far)	AlienAndSetDiv1	SRM 605	01.21.2014	Witaliy	Dynamic Programming	2	70.59%			details	
+	
+:/ Took time:
+	TheDivisionGame	SRM 565	
