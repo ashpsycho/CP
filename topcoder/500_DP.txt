@@ -44,3 +44,4 @@ Shortest 250 yet: 564 : 12 lines total (5 lines in logic)
 tough 250s:
 SRM 580 ... redo (not adding yet) (seems tricky )
 SRM 608 .. try proving your solution
+SRM 627 ... greedy, I can't handle them
