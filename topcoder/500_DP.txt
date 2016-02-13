@@ -40,8 +40,8 @@ Do Later:
 :/ Took time:
 	TheDivisionGame	SRM 565	
 
-Shortest 250 yet: 564 : 12 lines total (5 lines in logic)
-tough 250s:
+Shortest 250 yet: 564 : 12 lines total (5 lines in logic) replaced by 619 : 11 lines ( 4 lines of logic), 617 (10 lines, 3 line logic)
+tough 250s: (SRM 614 maybe)
 SRM 580 ... redo (not adding yet) (seems tricky )
 SRM 608 .. try proving your solution
 SRM 627 ... greedy, I can't handle them
