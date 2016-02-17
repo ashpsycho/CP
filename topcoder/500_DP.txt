@@ -23,19 +23,17 @@
 	Excavations	SRM 584	07.10.2013	gojira_tc	Dynamic Programming	2	26.21%			details	
 	AntlerSwapping	TCO13 Round 3B	06.22.2013	snuke	Dynamic Programming, Greedy	2	79.17%			details	
 	ColorfulBuilding	SRM 582	06.14.2013	semiexp	Dynamic Programming	2	69.57%			details	
-	TreeUnion	SRM 581	06.03.2013	gojira_tc	Dynamic Programming, Graph Theory, Math	2	74.40%			details	
+#	TreeUnion	SRM 581	06.03.2013	gojira_tc	Dynamic Programming, Graph Theory, Math	2	74.40%			details	
 	ShoutterDiv1	SRM 580	05.25.2013	snuke	Dynamic Programming, Graph Theory	2	64.65%			details	
-	WolfInZooDivOne	SRM 578	05.02.2013	tozangezan	Dynamic Programming	2	84.21%			details	
+*	WolfInZooDivOne	SRM 578	05.02.2013	tozangezan	Dynamic Programming	2	84.21%			details	
 	EllysChessboard	SRM 577	04.26.2013	rng_58	Dynamic Programming	2	53.85%			details	
 	TheExperiment	SRM 576	04.11.2013	gojira_tc	Dynamic Programming	2	83.93%			details	
 	PolygonTraversal	SRM 574	03.25.2013	gojira_tc	Dynamic Programming, Geometry	2	78.27%			details	
 	PenguinEmperor	SRM 566	01.12.2013	tehqin	Dynamic Programming, Simulation	2	79.39%			details	
+#	TheDivisionGame	SRM 565	
 	SpellCards	SRM 563	12.08.2012	cgy4ever	Dynamic Programming	2	76.15%			details	
 	LeftRightDigitsGame2	SRM 556	09.13.2012	fushar	Dynamic Programming, Simple Math, String Manipulation	2	43.78%			details	
 *	TwoConvexShapes	SRM 553	08.22.2012	vexorian	Dynamic Programming	2	63.33%			details	
-
-:/ Took time:
-	TheDivisionGame	SRM 565	
 
 Shortest 250 yet: 564 : 12 lines total (5 lines in logic) replaced by 619 : 11 lines ( 4 lines of logic), 617 (10 lines, 3 line logic)
 tough 250s: (SRM 614 maybe)
