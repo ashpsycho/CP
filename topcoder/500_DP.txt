@@ -13,7 +13,7 @@
 	FoxConnection	SRM 604	01.11.2014	cgy4ever	Dynamic Programming	2	11.11%			details	
 	PairsOfStrings	SRM 603	01.06.2014	lyrically	Dynamic Programming, Math	2	85.12%			details	
 	WinterAndSnowmen	SRM 601	12.22.2013	Witaliy	Dynamic Programming	2	76.39%			details	
-	PalindromeMatrix	SRM 600	12.14.2013	ir5	Brute Force, Dynamic Programming	2	75.17%			details	
+*	PalindromeMatrix	SRM 600	12.14.2013	ir5	Brute Force, Dynamic Programming	2	75.17%			details	
 	JumpingOnTheGrid	TCO13 Semifinal 2	11.12.2013	K.A.D.R	Dynamic Programming, Simulation	2	25.00%			details	
 	LittleElephantAndRGB	SRM 595	10.24.2013	Witaliy	Brute Force, Dynamic Programming	2	67.42%			details	
 	MayTheBestPetWin	SRM 593	10.05.2013	tozangezan	Brute Force, Dynamic Programming, Simple Math	2	78.72%	3	11.76%	details	
