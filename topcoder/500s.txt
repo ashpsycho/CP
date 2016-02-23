@@ -29,7 +29,7 @@ SRM 627 ... greedy, I can't handle them
 	BigO	SRM 608	02.07.2014	rng_58	Dynamic Programming, Graph Theory	2	57.84%			details	
 	CombinationLockDiv1	SRM 607	02.03.2014	Wheeler	Dynamic Programming	2	17.34%			details	
 	EllysPairing	SRM 606	01.29.2014	espr1t	Search	2	59.09%			details	
-	AlienAndSetDiv1	SRM 605	01.21.2014	Witaliy	Dynamic Programming	2	70.59%			details	
+*	AlienAndSetDiv1	SRM 605	01.21.2014	Witaliy	Dynamic Programming	2	70.59%			details	
 	FoxConnection	SRM 604	01.11.2014	cgy4ever	Dynamic Programming	2	11.11%			details	
 	PairsOfStrings	SRM 603	01.06.2014	lyrically	Dynamic Programming, Math	2	85.12%			details	
 	PilingRectsDiv1	SRM 602	12.28.2013	snuke	Greedy, Sorting	2	32.71%			details	
@@ -49,10 +49,10 @@ SRM 627 ... greedy, I can't handle them
 	LittleElephantAndPermutationDiv1	SRM 592	09.27.2013	Witaliy	Brute Force, Dynamic Programming	2	75.38%			details	
 	PyramidSequences	SRM 591	09.16.2013	gojira_tc	Math, Simulation	2	76.00%			details	
 	XorCards	SRM 590	09.07.2013	cgy4ever	Advanced Math	2	56.93%			details	
-	GearsDiv1	SRM 589	08.27.2013	snuke	Graph Theory	2	56.27%			details	
+*	GearsDiv1	SRM 589	08.27.2013	snuke	Graph Theory	2	56.27%			details	
 	KeyDungeonDiv1	SRM 588	08.12.2013	semiexp	Dynamic Programming	2	37.30%			details	
 	TriangleXor	SRM 587	08.01.2013	ir5	Geometry, Math	2	75.40%			details	
-	History	SRM 586	07.27.2013	gojira_tc	Graph Theory, Simple Math	2	79.63%			details	
+*(study graphs before this)	History	SRM 586	07.27.2013	gojira_tc	Graph Theory, Simple Math	2	79.63%			details	
 	LISNumber	SRM 585	07.19.2013	wrong	Dynamic Programming	2	82.41%			details	
 	Excavations	SRM 584	07.10.2013	gojira_tc	Dynamic Programming	2	26.21%			details	
 	AntlerSwapping	TCO13 Parallel Round 3B	06.22.2013	snuke	Dynamic Programming, Greedy	2	100.00%			details	
@@ -68,7 +68,7 @@ SRM 627 ... greedy, I can't handle them
 	EllysChessboard	SRM 577	04.26.2013	rng_58	Dynamic Programming	2	53.85%			details	
 	ScotlandYard	TCO13 Round 2B	04.20.2013	rng_58	Graph Theory	2	29.19%			details	
 	TheExperiment	SRM 576	04.11.2013	gojira_tc	Dynamic Programming	2	83.93%			details	
-	TheSwapsDivOne	SRM 575	04.06.2013	Vasyl[alphacom]	Brute Force	2	80.00%			details	
+#	TheSwapsDivOne	SRM 575	04.06.2013	Vasyl[alphacom]	Brute Force	2	80.00%			details	
 	TheMagicMatrix	TCO13 Round 2A	03.31.2013	Vasyl[alphacom]	Math	2	46.97%			details	
 	PolygonTraversal	SRM 574	03.25.2013	gojira_tc	Dynamic Programming, Geometry	2	78.27%			details	
 	SkiResorts	SRM 573	03.14.2013	rng_58	Graph Theory	2	39.53%			details	
@@ -96,8 +96,7 @@ SRM 627 ... greedy, I can't handle them
 	StRings	TCO12 Semifinal 1	10.02.2012	snuke	Graph Theory, Greedy, Math	2	80.00%			details	
 	StringEquations	TCO12 Wildcard Round	10.02.2012	lyrically	Graph Theory, String Manipulation	2	14.29%			details	
 	LeftRightDigitsGame2	SRM 556	09.13.2012	fushar	Dynamic Programming, Simple Math, String Manipulation	2	43.78%			details	
-*	XorBoard	SRM 555	09.07.2012	wrong	Math, Simple Search, Iteration	2	73.38%			details	
+#	XorBoard	SRM 555	09.07.2012	wrong	Math, Simple Search, Iteration	2	73.38%			details	
 	TheBrickTowerMediumDivOne	SRM 554	09.01.2012	Vasyl[alphacom]	Greedy	2	38.43%			details	
 	TwoConvexShapes	SRM 553	08.22.2012	vexorian	Dynamic Programming	2	63.33%			details	
-	FoxAndFlowerShopDivOne	SRM 552	08.16.2012	wrong	Brute Force, Simple Search, Iteration	2	76.60%			details	
-	ColorfulWolves	SRM 551	08.04.2012	tozangezan	Graph Theory	2	79.30%			details	
+#	FoxAndFlowerShopDivOne	SRM 552	08.16.2012	wrong	Brute Force, Simple Search, Iteration	2	76.60%			details	
