@@ -98,5 +98,9 @@ SRM 627 ... greedy, I can't handle them
 	LeftRightDigitsGame2	SRM 556	09.13.2012	fushar	Dynamic Programming, Simple Math, String Manipulation	2	43.78%			details	
 #	XorBoard	SRM 555	09.07.2012	wrong	Math, Simple Search, Iteration	2	73.38%			details	
 	TheBrickTowerMediumDivOne	SRM 554	09.01.2012	Vasyl[alphacom]	Greedy	2	38.43%			details	
-	TwoConvexShapes	SRM 553	08.22.2012	vexorian	Dynamic Programming	2	63.33%			details	
-#	FoxAndFlowerShopDivOne	SRM 552	08.16.2012	wrong	Brute Force, Simple Search, Iteration	2	76.60%			details	
+$* 	TwoConvexShapes	SRM 553	08.22.2012	vexorian	Dynamic Programming	2	63.33%			details	
+#@	FoxAndFlowerShopDivOne	SRM 552	08.16.2012	wrong	Brute Force, Simple Search, Iteration	2	76.60%			details	
+
+@-> took time
+*-> wrong answer
+$-> tricky
