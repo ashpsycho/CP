@@ -89,7 +89,7 @@ SRM 627 ... greedy, I can't handle them
 	CirclesGame	SRM 561	11.20.2012	cgy4ever	Advanced Math, Geometry, Graph Theory	2	60.16%			details	
 	DrawingPointsDivOne	SRM 560	11.10.2012	meret	Simple Search, Iteration	2	42.71%			details	
 	HatRack	SRM 559	10.30.2012	tehqin	Graph Theory, Recursion	2	41.88%			details	
-	Ear	SRM 558	10.19.2012	ir5	Brute Force, Geometry	2	61.74%			details	
+#	Ear	SRM 558	10.19.2012	ir5	Brute Force, Geometry	2	61.74%			details	
 	Incubator	SRM 557	10.10.2012	cgy4ever	Advanced Math, Graph Theory	2	26.98%			details	
 	PeriodicTiling	TCO12 Championship Round	10.03.2012	rng_58	Brute Force, Math	2	0.00%			details	
 	IndependentOfOR	TCO12 Semifinal 2	10.02.2012	cgy4ever	Greedy, Math, Search	2	60.00%			details	
