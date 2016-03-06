@@ -80,7 +80,7 @@ SRM 627 ... greedy, I can't handle them
 	CentaurCompany	SRM 570	02.13.2013	snuke	Graph Theory	2	84.00%			details	
 	TheJediTest	SRM 569	02.06.2013	gojira_tc	Brute Force, Greedy	2	35.05%			details	
 	EqualSums	SRM 568	01.29.2013	ltaravilse	Advanced Math	2	80.00%			details	
-	StringGame	SRM 567	01.21.2013	gojira_tc	String Manipulation	2	49.42%			details	
+#	StringGame	SRM 567	01.21.2013	gojira_tc	String Manipulation	2	49.42%			details	
 	PenguinEmperor	SRM 566	01.12.2013	tehqin	Dynamic Programming, Simulation	2	79.39%			details	
 #	TheDivisionGame	SRM 565	12.20.2012	gojira_tc	Dynamic Programming, Math	2	67.63%			details	
 	AlternateColors2	SRM 564	12.12.2012	vexorian	Math, Simple Search, Iteration	2	74.64%			details	
@@ -88,9 +88,9 @@ SRM 627 ... greedy, I can't handle them
 	CheckerFreeness	SRM 562	11.30.2012	ir5	Geometry	2	11.51%			details	
 	CirclesGame	SRM 561	11.20.2012	cgy4ever	Advanced Math, Geometry, Graph Theory	2	60.16%			details	
 	DrawingPointsDivOne	SRM 560	11.10.2012	meret	Simple Search, Iteration	2	42.71%			details	
-	HatRack	SRM 559	10.30.2012	tehqin	Graph Theory, Recursion	2	41.88%			details	
+$#	HatRack	SRM 559	10.30.2012	tehqin	Graph Theory, Recursion	2	41.88%			details	
 #	Ear	SRM 558	10.19.2012	ir5	Brute Force, Geometry	2	61.74%			details	
-	Incubator	SRM 557	10.10.2012	cgy4ever	Advanced Math, Graph Theory	2	26.98%			details	
+*	Incubator	SRM 557	10.10.2012	cgy4ever	Advanced Math, Graph Theory	2	26.98%			details	
 	PeriodicTiling	TCO12 Championship Round	10.03.2012	rng_58	Brute Force, Math	2	0.00%			details	
 	IndependentOfOR	TCO12 Semifinal 2	10.02.2012	cgy4ever	Greedy, Math, Search	2	60.00%			details	
 	StRings	TCO12 Semifinal 1	10.02.2012	snuke	Graph Theory, Greedy, Math	2	80.00%			details	
