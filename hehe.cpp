@@ -1,37 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
-int main(){
-	long long i,j,k,j1,n,arr[63];
-	map<long long,int>m;
-	map<long long,int>::iterator it;
-	queue<long long>q;
-	q.push(31);
-	m[31]=0;
-	while(!q.empty()){
-		j1=j=q.front();
-		q.pop();
-		for(i=0;i<63;i++)arr[i]=0;
-		for(i=0,k=1;i<63;i++,k*=2LL)if((k&j)>0)arr[i]=1;
-		for(i=0;i<63;i++){
-			for(j=0;j<63;j++){
-				if(arr[i]==0 || arr[j]==1)continue;
-				if(j!=0 && arr[j-1]==0)continue;
-				if(i!=0 && arr[i-1]==0)continue;
-				if(j==(i+1))continue;
-				k=(j1) + (1LL<<j) - (1LL<<i);
-				it=m.find(k);
-				if(it==m.end()||(m[k]>(1+m[j1]))){
-					if(k<100)cout<<k<<"\n";
-					m[k]=1+m[j1];
-					q.push(k);
-				}
+long long fn(int n,int k){
+	long long dp[20][20],i,j,x;
+	for(i=0;i<20;i++)
+		for(j=0;j<20;j++)dp[i][j]=0;
+	for(i=1;i<=k;i++)dp[1][i]=1;
+	for(i=2;i<=n;i++){
+		for(j=1;j<=k;j++){
+			for(x=1;x<=k;x++){
+				if(x>=j || (j%x)>0)dp[i][x]+=dp[i-1][j];
 			}
 		}
 	}
-	cout<<"hehe\n";
-	while(1){
-		cin>>n;
-		cout<<m[n]<<"\n";
+	for(i=1,x=0;i<=k;i++)x+=dp[n][i];
+	return x;
+}
+int main(){
+	int i,j,k,n;
+	for(k=1;k<11;k++){
+		for(n=1;n<11;n++){
+			cout<<fn(n,k)<<" ";
+		}
+		cout<<"\n";
 	}
 	return 0;
 }
