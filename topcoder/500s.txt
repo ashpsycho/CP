@@ -83,9 +83,9 @@ SRM 627 ... greedy, I can't handle them
 	PenguinEmperor	SRM 566	01.12.2013	tehqin	Dynamic Programming, Simulation	2	79.39%			details	
 #	TheDivisionGame	SRM 565	12.20.2012	gojira_tc	Dynamic Programming, Math	2	67.63%			details	
 	AlternateColors2	SRM 564	12.12.2012	vexorian	Math, Simple Search, Iteration	2	74.64%			details	
-	SpellCards	SRM 563	12.08.2012	cgy4ever	Dynamic Programming	2	76.15%			details	
-	CheckerFreeness	SRM 562	11.30.2012	ir5	Geometry	2	11.51%			details	
-	CirclesGame	SRM 561	11.20.2012	cgy4ever	Advanced Math, Geometry, Graph Theory	2	60.16%			details	
+#	SpellCards	SRM 563	12.08.2012	cgy4ever	Dynamic Programming	2	76.15%			details	
+*(figured ut out the next day, need to implement library ASAP)	CheckerFreeness	SRM 562	11.30.2012	ir5	Geometry	2	11.51%			details	
+$*(silly I am)	CirclesGame	SRM 561	11.20.2012	cgy4ever	Advanced Math, Geometry, Graph Theory	2	60.16%			details	
 *	DrawingPointsDivOne	SRM 560	11.10.2012	meret	Simple Search, Iteration	2	42.71%			details	
 $#	HatRack	SRM 559	10.30.2012	tehqin	Graph Theory, Recursion	2	41.88%			details	
 #	Ear	SRM 558	10.19.2012	ir5	Brute Force, Geometry	2	61.74%			details	
@@ -94,7 +94,7 @@ $#	HatRack	SRM 559	10.30.2012	tehqin	Graph Theory, Recursion	2	41.88%			details
 	IndependentOfOR	TCO12 Semifinal 2	10.02.2012	cgy4ever	Greedy, Math, Search	2	60.00%			details	
 	StRings	TCO12 Semifinal 1	10.02.2012	snuke	Graph Theory, Greedy, Math	2	80.00%			details	
 	StringEquations	TCO12 Wildcard Round	10.02.2012	lyrically	Graph Theory, String Manipulation	2	14.29%			details	
-	LeftRightDigitsGame2	SRM 556	09.13.2012	fushar	Dynamic Programming, Simple Math, String Manipulation	2	43.78%			details	
+*	LeftRightDigitsGame2	SRM 556	09.13.2012	fushar	Dynamic Programming, Simple Math, String Manipulation	2	43.78%			details	
 #	XorBoard	SRM 555	09.07.2012	wrong	Math, Simple Search, Iteration	2	73.38%			details	
 #	TheBrickTowerMediumDivOne	SRM 554	09.01.2012	Vasyl[alphacom]	Greedy	2	38.43%			details	
 $* 	TwoConvexShapes	SRM 553	08.22.2012	vexorian	Dynamic Programming	2	63.33%			details	
