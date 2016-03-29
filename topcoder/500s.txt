@@ -15,7 +15,7 @@ SRM 627 ... greedy, I can't handle them
 	CandidatesSelection	SRM 620	05.10.2014	cgy4ever	Greedy	2	37.35%			details	
 	GoodCompanyDivOne	SRM 619	05.05.2014	hyy5159	Dynamic Programming, Graph Theory	2	34.55%			details	
 #	FizzBuzzTurbo	TCO14 Round 1C	04.26.2014	misof	Simple Math, Simple Search, Iteration	2	81.56%			details	
-	LongWordsDiv1	SRM 618	04.24.2014	ltaravilse	Advanced Math, Dynamic Programming, Graph Theory	2	94.24%			details	
+#	LongWordsDiv1	SRM 618	04.24.2014	ltaravilse	Advanced Math, Dynamic Programming, Graph Theory	2	94.24%			details	
 #	WolvesAndSheep	TCO14 Round 1B	04.19.2014	tozangezan	Brute Force, Greedy	2	58.19%			details	
 #	EllysScrabble	TCO14 Round 1A	04.12.2014	espr1t	Dynamic Programming, Graph Theory, Greedy	2	87.11%			details	
 	ColorfulCoins	SRM 616	04.10.2014	tourist	Greedy, Math	2	34.74%			details	
