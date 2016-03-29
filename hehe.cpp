@@ -1,27 +1,37 @@
 #include <bits/stdc++.h>
 using namespace std;
-long long fn(int n,int k){
-	long long dp[20][20],i,j,x;
-	for(i=0;i<20;i++)
-		for(j=0;j<20;j++)dp[i][j]=0;
-	for(i=1;i<=k;i++)dp[1][i]=1;
-	for(i=2;i<=n;i++){
-		for(j=1;j<=k;j++){
-			for(x=1;x<=k;x++){
-				if(x>=j || (j%x)>0)dp[i][x]+=dp[i-1][j];
+int main(){
+	long long ma;
+	cin>>ma;
+	long long i,j,k,n,t,te,p,po[ma];
+	po[0]=1;
+	for(i=1;i<ma;i++)po[i]=po[i-1]*2;
+	map<long long, int>m;
+	queue<long long>q;
+	q.push(ma);
+	m[ma]=0;
+	while(!q.empty()){
+		k=q.front();
+		q.pop();
+		for(i=0;i<ma;i++){
+			for(j=0;j<ma;j++){
+				if(j==(i+1)||(i==j) || (k&po[i])==0 || (k&po[j])!=0)continue;
+				if(i!=0 && (k&po[i-1])==0)continue;
+				if(j!=0 && (k&po[j-1])==0)continue;
+				t=k+po[j]-po[i];
+				if(m.find(t)==m.end()){
+					m[t]=1+m[k];
+					q.push(t);
+				}
 			}
 		}
 	}
-	for(i=1,x=0;i<=k;i++)x+=dp[n][i];
-	return x;
-}
-int main(){
-	int i,j,k,n;
-	for(k=1;k<11;k++){
-		for(n=1;n<11;n++){
-			cout<<fn(n,k)<<" ";
-		}
-		cout<<"\n";
+	for(i=ma;;i*=2){
+		if(m.find(i)==m.end())break;
+		cout<<i<<" "<<m[i]<<"\n";
+	}
+	while(cin>>i){
+		cout<<m[i]<<"\n";
 	}
 	return 0;
 }

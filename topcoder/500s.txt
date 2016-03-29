@@ -16,7 +16,7 @@ SRM 627 ... greedy, I can't handle them
 	GoodCompanyDivOne	SRM 619	05.05.2014	hyy5159	Dynamic Programming, Graph Theory	2	34.55%			details	
 	FizzBuzzTurbo	TCO14 Round 1C	04.26.2014	misof	Simple Math, Simple Search, Iteration	2	81.56%			details	
 	LongWordsDiv1	SRM 618	04.24.2014	ltaravilse	Advanced Math, Dynamic Programming, Graph Theory	2	94.24%			details	
-	WolvesAndSheep	TCO14 Round 1B	04.19.2014	tozangezan	Brute Force, Greedy	2	58.19%			details	
+#	WolvesAndSheep	TCO14 Round 1B	04.19.2014	tozangezan	Brute Force, Greedy	2	58.19%			details	
 #	EllysScrabble	TCO14 Round 1A	04.12.2014	espr1t	Dynamic Programming, Graph Theory, Greedy	2	87.11%			details	
 	ColorfulCoins	SRM 616	04.10.2014	tourist	Greedy, Math	2	34.74%			details	
 	LongLongTripDiv1	SRM 615	04.04.2014	snuke	Graph Theory, Math	2	16.04%			details	
@@ -71,7 +71,7 @@ SRM 627 ... greedy, I can't handle them
 	TheMagicMatrix	TCO13 Round 2A	03.31.2013	Vasyl[alphacom]	Math	2	46.97%			details	
 	PolygonTraversal	SRM 574	03.25.2013	gojira_tc	Dynamic Programming, Geometry	2	78.27%			details	
 #	SkiResorts	SRM 573	03.14.2013	rng_58	Graph Theory	2	39.53%			details	
-	TheOlympiadInInformatics	TCO13 Round 1C	03.09.2013	Vasyl[alphacom]	Simple Search, Iteration	2	53.60%			details	
+#	TheOlympiadInInformatics	TCO13 Round 1C	03.09.2013	Vasyl[alphacom]	Simple Search, Iteration	2	53.60%			details	
 	EllysBulls	SRM 572	03.06.2013	espr1t	Brute Force, Encryption/Compression	2	28.00%			details	
 	EllysFigurines	TCO13 Round 1B	03.02.2013	espr1t	Brute Force, Simulation	2	49.65%			details	
 *	TheFrog	TCO13 Round 1A	02.23.2013	gojira_tc	Search	2	24.88%			details	
@@ -80,9 +80,9 @@ SRM 627 ... greedy, I can't handle them
 	TheJediTest	SRM 569	02.06.2013	gojira_tc	Brute Force, Greedy	2	35.05%			details	
 	EqualSums	SRM 568	01.29.2013	ltaravilse	Advanced Math	2	80.00%			details	
 #	StringGame	SRM 567	01.21.2013	gojira_tc	String Manipulation	2	49.42%			details	
-	PenguinEmperor	SRM 566	01.12.2013	tehqin	Dynamic Programming, Simulation	2	79.39%			details	
+*	PenguinEmperor	SRM 566	01.12.2013	tehqin	Dynamic Programming, Simulation	2	79.39%			details	
 #	TheDivisionGame	SRM 565	12.20.2012	gojira_tc	Dynamic Programming, Math	2	67.63%			details	
-	AlternateColors2	SRM 564	12.12.2012	vexorian	Math, Simple Search, Iteration	2	74.64%			details	
+#	AlternateColors2	SRM 564	12.12.2012	vexorian	Math, Simple Search, Iteration	2	74.64%			details	
 #	SpellCards	SRM 563	12.08.2012	cgy4ever	Dynamic Programming	2	76.15%			details	
 *(figured ut out the next day, need to implement library ASAP)	CheckerFreeness	SRM 562	11.30.2012	ir5	Geometry	2	11.51%			details	
 $*(silly I am)	CirclesGame	SRM 561	11.20.2012	cgy4ever	Advanced Math, Geometry, Graph Theory	2	60.16%			details	
