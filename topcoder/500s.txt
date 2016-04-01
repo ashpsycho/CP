@@ -6,7 +6,6 @@ SRM 627 ... greedy, I can't handle them
 
 	BlockTheBlockPuzzle	SRM 625	06.19.2014	vexorian	Graph Theory, Search	2	53.51%			details	
 	DrivingPlans	SRM 624	06.12.2014	MDantas	Advanced Math, Graph Theory, Math	2	39.15%			details	
-	SumAndProductPuzzle	TCO14 Parallel Round 2B	06.07.2014	misof	Math, Simple Search, Iteration	2	77.78%			details	
 	SumAndProductPuzzle	TCO14 Round 2B	06.07.2014	misof	Math, Simple Search, Iteration	2	59.46%			details	
 	CatchTheBeat	SRM 623	06.04.2014	cgy4ever	Dynamic Programming, Geometry	2	55.20%			details	
 	Ethernet	SRM 622	05.28.2014	ltaravilse	Dynamic Programming	2	70.59%			details	
@@ -21,7 +20,7 @@ SRM 627 ... greedy, I can't handle them
 $*#	ColorfulCoins	SRM 616	04.10.2014	tourist	Greedy, Math	2	34.74%			details	
 	LongLongTripDiv1	SRM 615	04.04.2014	snuke	Graph Theory, Math	2	16.04%			details	
 	CycleColoring	SRM 614	03.29.2014	Cricicle	Dynamic Programming, Graph Theory, Math	2	84.62%			details	
-	RandomGCD	SRM 613	03.21.2014	Cricicle	Dynamic Programming, Math	2	26.80%			details	
+#	RandomGCD	SRM 613	03.21.2014	Cricicle	Dynamic Programming, Math	2	26.80%			details	
 	SpecialCells	SRM 612	03.11.2014	ltaravilse	Graph Theory	2	56.25%			details	
 	Egalitarianism2	SRM 611	03.04.2014	cgy4ever	Graph Theory, Math	2	35.80%			details	
 #	AlbertoTheAviator	SRM 610	02.25.2014	brunoja	Dynamic Programming, Greedy	2	51.31%			details	
