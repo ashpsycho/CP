@@ -6,7 +6,7 @@ SRM 627 ... greedy, I can't handle them
 
 	BlockTheBlockPuzzle	SRM 625	06.19.2014	vexorian	Graph Theory, Search	2	53.51%			details	
 	DrivingPlans	SRM 624	06.12.2014	MDantas	Advanced Math, Graph Theory, Math	2	39.15%			details	
-	SumAndProductPuzzle	TCO14 Round 2B	06.07.2014	misof	Math, Simple Search, Iteration	2	59.46%			details	
+#	SumAndProductPuzzle	TCO14 Round 2B	06.07.2014	misof	Math, Simple Search, Iteration	2	59.46%			details	
 	CatchTheBeat	SRM 623	06.04.2014	cgy4ever	Dynamic Programming, Geometry	2	55.20%			details	
 	Ethernet	SRM 622	05.28.2014	ltaravilse	Dynamic Programming	2	70.59%			details	
 #	TreesAnalysis	SRM 621	05.20.2014	boba5551	Dynamic Programming, Graph Theory	2	64.62%			details	
