@@ -8,7 +8,7 @@ trickyyyyyy
 645 - 250
 653 - 250 (do redo manyyyyyyyyy times)
 677 - 250 (did live, missed 1 single case :'( )
-654 - div2_1000 (missed one case, do better next time)
+654 - div2_1000 (missed one case, do better next time)\
 
 topics to practice a lot:-
 geometry ( SRM 641, 250)

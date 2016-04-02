@@ -25,7 +25,7 @@ $*#	ColorfulCoins	SRM 616	04.10.2014	tourist	Greedy, Math	2	34.74%			details
 	Egalitarianism2	SRM 611	03.04.2014	cgy4ever	Graph Theory, Math	2	35.80%			details	
 #	AlbertoTheAviator	SRM 610	02.25.2014	brunoja	Dynamic Programming, Greedy	2	51.31%			details	
 	PackingBallsDiv1	SRM 609	02.15.2014	semiexp	Brute Force, Search, Simple Math	2	75.66%			details	
-	BigO	SRM 608	02.07.2014	rng_58	Dynamic Programming, Graph Theory	2	57.84%			details	
+$@#	BigO	SRM 608	02.07.2014	rng_58	Dynamic Programming, Graph Theory	2	57.84%			details	
 	CombinationLockDiv1	SRM 607	02.03.2014	Wheeler	Dynamic Programming	2	17.34%			details	
 	EllysPairing	SRM 606	01.29.2014	espr1t	Search	2	59.09%			details	
 ***		AlienAndSetDiv1	SRM 605	01.21.2014	Witaliy	Dynamic Programming	2	70.59%			details	
