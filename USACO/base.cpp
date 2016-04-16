@@ -1,3 +1,8 @@
+/*
+ID: a1lavan1
+LANG: C++
+TASK: test
+*/
 #include <bits/stdc++.h> 
 #include <fstream>
 #define MAX 100001

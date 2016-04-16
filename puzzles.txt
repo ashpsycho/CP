@@ -1,0 +1,45 @@
+A game of 2014 cards
+Planar configuration of straight connecting lines
+Reducing nearby enemies
+Handshakes at a dinner party
+Chomp
+Alternating T-shirt colors
+Weighing piles of coins
+Guessing each other's coins
+Capturing a pirate ship
+3-person duel
+The genders of the neighboring family's children
+Finding a hermit
+Witches at a coffee shop
+Lemmings on a ledge
+Dropping 9-terms from the harmonic series
+Finding a restaurant in a park
+Opening boxes in a prison courtyard
+Frugal selection of weights to determine the weight of a thing
+Initializing an array in constant time
+Translation error in a cookbook
+Making a square larger
+Catching a spy
+Average clan size
+Mixed up airplane seats
+Coins in a line
+Determining the number of one hat
+Voting on how to distribute coins
+Subsequence of coin tosses
+Finding a counterfeit coin
+Fair soccer championship
+Path on the surface of the Earth
+Mixing vinegar and oil
+Psycho killer
+Passing alternating numbers of coins around
+The exact batting average
+Summing pairs of numbers to primes
+Placing coins on a table
+Boris and Natasha
+Three hat colors
+Table with four coins
+Stabilizing points from an anchor
+Points on a circle
+The electrician problem
+The hidden card
+Knight, knave, commoner
