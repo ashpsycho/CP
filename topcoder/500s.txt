@@ -10,7 +10,7 @@ SRM 627 ... greedy, I can't handle them
 	CatchTheBeat	SRM 623	06.04.2014	cgy4ever	Dynamic Programming, Geometry	2	55.20%			details	
 	Ethernet	SRM 622	05.28.2014	ltaravilse	Dynamic Programming	2	70.59%			details	
 #	TreesAnalysis	SRM 621	05.20.2014	boba5551	Dynamic Programming, Graph Theory	2	64.62%			details	
-	NarrowPassage	TCO14 Round 2A	05.17.2014	rng_58	Math	2	70.07%			details	
+*(algo was right, implemetation was not)	NarrowPassage	TCO14 Round 2A	05.17.2014	rng_58	Math	2	70.07%			details	
 	CandidatesSelection	SRM 620	05.10.2014	cgy4ever	Greedy	2	37.35%			details	
 	GoodCompanyDivOne	SRM 619	05.05.2014	hyy5159	Dynamic Programming, Graph Theory	2	34.55%			details	
 #	FizzBuzzTurbo	TCO14 Round 1C	04.26.2014	misof	Simple Math, Simple Search, Iteration	2	81.56%			details	
@@ -27,7 +27,7 @@ $*#	ColorfulCoins	SRM 616	04.10.2014	tourist	Greedy, Math	2	34.74%			details
 	PackingBallsDiv1	SRM 609	02.15.2014	semiexp	Brute Force, Search, Simple Math	2	75.66%			details	
 $@#	BigO	SRM 608	02.07.2014	rng_58	Dynamic Programming, Graph Theory	2	57.84%			details	
 	CombinationLockDiv1	SRM 607	02.03.2014	Wheeler	Dynamic Programming	2	17.34%			details	
-	EllysPairing	SRM 606	01.29.2014	espr1t	Search	2	59.09%			details	
+*(optimize further)	EllysPairing	SRM 606	01.29.2014	espr1t	Search	2	59.09%			details	
 ***		AlienAndSetDiv1	SRM 605	01.21.2014	Witaliy	Dynamic Programming	2	70.59%			details	
 	FoxConnection	SRM 604	01.11.2014	cgy4ever	Dynamic Programming	2	11.11%			details	
 #	PairsOfStrings	SRM 603	01.06.2014	lyrically	Dynamic Programming, Math	2	85.12%			details	
