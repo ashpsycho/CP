@@ -62,6 +62,43 @@ string toBase(int base,int num){
 	return ans;
 }
 
+//ROMAN NUMBERS
+string getRomanNumber(int n){
+	int i,j,k,po;
+	string roman[7]={"I","V","X","L","C","D","M"};
+	vector<int> calc[10];
+	calc[1].push_back(0);
+	calc[2].push_back(0);
+	calc[2].push_back(0);
+	calc[3].push_back(0);
+	calc[3].push_back(0);
+	calc[3].push_back(0);
+	calc[4].push_back(0);
+	calc[4].push_back(1);
+	calc[5].push_back(1);
+	calc[6].push_back(1);
+	calc[7].push_back(1);
+	calc[8].push_back(1);
+	calc[6].push_back(0);
+	calc[7].push_back(0);
+	calc[7].push_back(0);
+	calc[8].push_back(0);
+	calc[8].push_back(0);
+	calc[8].push_back(0);
+	calc[9].push_back(0);
+	calc[9].push_back(2);
+	string ans="", temp="";
+	for(po=0;n>0;po++, n/=10){
+		k=(n%10);
+		temp="";
+		for(i=0;i<calc[k].size();i++){
+			temp+=roman[po*2+calc[k][i]];
+		}
+		ans=temp+ans;
+	}
+	return ans;
+}
+
 //NUMBER THEORY
 
 //CHECK PRIME SIMPLE
