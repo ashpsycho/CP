@@ -127,7 +127,17 @@ vector<int> intersect(vector<int> a,vector<int> b){
 	return ans;
 }
 
+//GRAPH THEORY
 
+// Floyd Warshall O(n^3) All Pair Shortest Paths
+for(k=0;k<n;k++){
+	for(i=0;i<n;i++)
+		for(j=0;j<n;j++){
+			if(dist[i][j]>(dist[i][k]+dist[k][j]))
+				dist[i][j]=dist[i][k]+dist[k][j];
+		}
+}
+	
 
 int main(){
 	return 0;
