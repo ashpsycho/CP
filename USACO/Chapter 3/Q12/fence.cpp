@@ -4,9 +4,6 @@ LANG: C++
 TASK: fence
 */
 #include <bits/stdc++.h> 
-#define T pair<long long,long long>
-#define x first
-#define y second
 #define MAX 501
 using namespace std;
 int main(){
