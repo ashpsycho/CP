@@ -109,6 +109,36 @@ bool isPrime(int n){
 	return ((i*i)>n);
 }
 
+
+//Vector Intersection
+
+
+vector<int> intersect(vector<int> a,vector<int> b){
+	//sort(a.begin(),a.end());
+	//sort(b.begin(),b.end());
+	vector<int> ans;
+	for(int i=0,j=0;i<a.size() && j<b.size();){
+		if(a[i]<b[j])i++;
+		else {
+			if(a[i]==b[j])ans.push_back(a[i]);
+			j++;
+		}
+	}
+	return ans;
+}
+
+//GRAPH THEORY
+
+// Floyd Warshall O(n^3) All Pair Shortest Paths
+for(k=0;k<n;k++){
+	for(i=0;i<n;i++)
+		for(j=0;j<n;j++){
+			if(dist[i][j]>(dist[i][k]+dist[k][j]))
+				dist[i][j]=dist[i][k]+dist[k][j];
+		}
+}
+	
+
 int main(){
 	return 0;
 }
