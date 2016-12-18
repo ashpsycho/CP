@@ -1,0 +1,77 @@
+Title : Partly Blacked Magic Square.
+http://www.gsic.titech.ac.jp/supercon/main/attwiki/index.php?plugin=attach&refer=SupercomputingContest2016&openfile=yosen.pdf
+
+Actual problem is from page 2.
+
+2:Subjects
+
+   2.1: There is a 4 x 4 Magic Square which all four corners are blacked out.
+      Please make the program which can complete the magic square.
+      Numbers for white places will be given. Then please decide numbers for black box.
+          Sample data: 4by4.dat  Header file:sc3.h
+
+   2.2: There is a 5  x 5 Magic Square which diagonal boxes are blacked.
+      Please make the program which can complete the magic square.
+      Numbers for white places will be given. Then please decide numbers for black box.
+           Sample data: 5by5.dat  Header file:sc2.h
+
+   2.3: As shown in a figure, please implement the program which can fill the number of blacked magic square,
+      which is randomly, 15th boxes are blacked out.
+      It will be decided by a random number that which part would be blacked.
+      The figure is just a example and in actual problem, other pattern will be applied.
+      Whole number for both black boxes and white boxes will be given.
+      Please decide black box numbers which can construct whole magic square with them.
+      Even though the answer might not be limited just one, picking up one from them is enough.
+            Sample data: 6by6.dat  Header file:sc1.h
+
+    (2.4): Please solve whole subjects. Final judgement will be done by the 2.3 issue but, before that, you need to solve all subjects at least.
+           Input and output time are not included in actual calculation time.
+           If the number of correct answer is same, the team which achieved the shortest amount of calculation time will win the competition.
+
+3:Details
+   3.1:Blacked Magic Square numbers will be given as an array of numbers.
+         e.g: 4x4 magic square numbers will be given like this:
+                7 0 2 10 14 0 3 11 1 9 16 0 0 4 13 0
+         -0 means blacked out.
+         -Input method explained later reads the data from standard input and put them into two-dimensional arrays.
+         -The answer should be outputted as complete magic square.
+         -If there will be considered some patterns, Please pick up one from them.
+
+  3.2:About header files, input and output method.
+        There is a header file for each subject. Please include them when you intend to solve it.
+        Please put them into same directory with your source code and include it as follow:
+
+         #include "sc1.h"
+
+         If you want to use stdio.h and stdlib.h,
+
+         #include<stdio.h>
+         #include<stdlib.h>
+         #include "sc1.h"
+
+        In header file, they are defined that, a constant which means "N" degree, input and output functions, 
+        array for actual magic square date itself and variable to calculate the time as follow:
+
+                N: Constants which express how many degree this magic square have.( 4, 5 and 6 for each subject )
+                s[N][N]: Two-dimensional arrays which magic square data will be put.
+                void input(int s[][N]): Input function. Reading a magic square data from stdin and put them into "s".
+                                                 In same time, setting the time to "starttime".
+                void output(int s[][N]): Output function. It outputs data of array s to stdout.
+                                                   Before outputting, it sets the time to "endtime" and output the calculation time as "endtime-starttime".
+                                                   starttime, endtime: Constant which stat time or endtime of the program will be set into.
+         Input function must be called at first. It is forbidden to put any program before the input function.
+         If you ignore this rule, you will be disqualified.
+
+    3.3: Execution environment and other notices.
+          Program should be ANSI C and one file. You do not need to submit a header file.
+          Gcc is the compiler. You can use -O option( if you want to use math-library, -lm is allowed as well).
+          Maximum execution time is 5min for each  and total maximum time will be 25 min.
+          Maximum memory is 2GB for process itself.
+          Do not initialize global variables.
+          Evaluation machine information: CPU: Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
+                                               OS: Linux 3.19.0-65-generic x86_64
+
+
+
+Here is the paper which is written by the man who considered this subject.
+ http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125062

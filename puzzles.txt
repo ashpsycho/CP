@@ -1,7 +1,6 @@
 A game of 2014 cards
 Planar configuration of straight connecting lines
 Reducing nearby enemies
-Handshakes at a dinner party
 Chomp
 Alternating T-shirt colors
 Weighing piles of coins
@@ -21,7 +20,6 @@ Translation error in a cookbook
 Making a square larger
 Catching a spy
 Average clan size
-Mixed up airplane seats
 Coins in a line
 Determining the number of one hat
 Voting on how to distribute coins
