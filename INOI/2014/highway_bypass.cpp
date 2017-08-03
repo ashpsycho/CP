@@ -14,10 +14,8 @@ int main(){
 	for(i=0;i<n;i++){
 		for(j=0;j<m;j++){
 			if(arr[i][j]==0)continue;
-
 			for(k=i-1;k>=max(0,i-d)&&arr[k][j]!=0;k--)
 				ans[i][j][1]=(ans[i][j][1]+ans[k][j][0])%mod;
-			
 			for(k=j-1;k>=max(0,j-d)&&arr[i][k]!=0;k--)
 				ans[i][j][0]=(ans[i][j][0]+ans[i][k][1])%mod;
 		}

@@ -1,7 +1,4 @@
 #include <bits/stdc++.h>
-#define T pair<int,int>
-#define x first
-#define y second
 #define MAX 100001
 using namespace std;
 vector<int> adj[MAX];
@@ -18,7 +15,6 @@ int rec(int m){
 }
 
 int main(){
-
 	int i,j,k,n,m;
 	cin>>n;
 	for(i=0;i<n;i++)cin>>arr[i];
