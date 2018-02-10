@@ -1,0 +1,50 @@
+2012 :
+Q1: Table Sum: Priority Queue + Greedy/Observation
+Q2: Triathlon: Sorting + Pair/Struct 
+
+2013
+Q1: Calvin's Game: DP 
+Q2: Sequence Land: BFS
+
+2014
+Q1: Free Ticket: Floyd-Warshall/APSP
+Q2: Highway Bypass: Tricky DP
+
+2015
+Q1: Periodic Strings: Pow logic + Number Theory
+Q2: Special Sums: DP + Observation/Greedy
+
+2016
+Q1: Wealth Disparity: Tree DFS(Recursion)
+Q2: Brackets: DP(Memoization, Bottom Up)
+
+
+
+
+
+
+
+
+
+
+
+
+STL (set/priority_queue/map/vector/queue)( codechef: KSUBSUM(pq) )
+Greedy
+DP
+Graph
+Number Theory
+
+
+
+Thur => (1-3)  (4-7 coaching) (7-8 Play) (8-10 HW + Khaana) (10-1)
+Fri  => (12-3) (4-7:30 coaching) (7:30-9:30) (9:30-10:15 Khaana + TV) (10:15-1:15)
+Sat  => (12-3) (3-4 Khaana + TV) (4-7 Coaching) (7- 7:30 Play) (7:30-8:30 HW) (8:30-9:15 Khana + TV) Movie Night (12-1:30)
+Sun  => (12-3 BBQ Lunch) (3-7) (7-8 Play) (8-9:30)  (9:30-10:00 Khaana) (10 -1)
+Mon  => (12-3) (4-9 Coaching) (9-10 Khaana TV) (10-1)
+Tue  => (12-3) (4-7 Coaching) (7-8 Play) (8-9 HW Time) (9-10 Khaana TV) (10-1)
+Wed  => (12-3) (4-9 Coaching) (9-10 Khaana TV) (10-1)
+Thur => (12-3) (4-7 Coaching) (7-8 Play) (8-9 HW Time) (9-10 Khaana TV) (10-1)
+Fri  => (12-3) (4-9 Coaching) (9-10 Khaana TV) (10-1)
+Sat  => (12-3) (4-7 Coaching) (7-8 Play) (8-9 HW Time) (9-10 Khaana TV) (10-1)
+Sun  => Exam Day
