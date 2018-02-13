@@ -5,7 +5,7 @@ import java.util.stream.*;
 import java.util.function.*;
 
 public class PollardRho{
-	public long n;
+	public long n,factor;
 	
 	long gcd(long a, long b){
 		long c;
@@ -22,12 +22,17 @@ public class PollardRho{
 		return a;
 	}	
 
+	long squar(long x){
+		long breaker=1<<20, small_x = x>>20;
+		return (x*(x&(breaker-1)) + (((x*small_x)%n)<<20));
+	}
+
 	long g(long x){
-		return (x*x + 1)%n;
+		return (squar(x) + 1)%n;
 	}
 
 	long g2(long x){
-                return (x*x + n - 1)%n;
+                return (squar(x) + n - 1)%n;
         }
 
  	private long getNext(int starter, Function<Long,Long> g){
@@ -41,7 +46,7 @@ public class PollardRho{
 	}
 
 	long getNext(){
-		int i,primes []= {2,3,4,5,6}; 
+		int i,primes []= {2,4}; 
 		long d;
 		for(i=0;i<primes.length;i++){
 			d = getNext(primes[i],this::g);
@@ -52,15 +57,23 @@ public class PollardRho{
 		return n;
 	}
 
-	public List<Long> primeFactors(){
-		List<Long> factors = new ArrayList<>();
-		while(n!=1){
-			long factor = getNext();
-			
-			factors.add(factor);
-			while((n%factor)==0)n = n/factor;
+	public Set<Long> primeFactors(){
+		Set<Long> factors = new HashSet<>();
+		Queue<Long> maybeFactors = new ArrayDeque<>();
+		maybeFactors.add(n);
+		
+		while(maybeFactors.size()>0){
+			n = maybeFactors.remove();
+			factor = getNext();
+			if(n == factor){
+				factors.add(n);
+				continue;
+			}
+			while((n%factor)==0)n/=factor;
+			if(n!=1)maybeFactors.add(n);
+			maybeFactors.add(factor);
 		}
-		return cleanUp(factors);
+		return factors;
 	}
 
 	public static void main(String args[])throws Exception{
@@ -69,7 +82,7 @@ public class PollardRho{
 		while(scanner.hasNextLong()){
 			long n = scanner.nextLong();
 			rho.n = n;
-			List<Long> factors = rho.primeFactors();
+			Set<Long> factors = rho.primeFactors();
 			factors.stream().forEach(factor -> System.out.print(factor + " "));
 			System.out.println();
 		}
