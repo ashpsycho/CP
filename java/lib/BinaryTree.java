@@ -2,110 +2,109 @@ import java.lang.*;
 import java.io.*;
 class BinaryTree{
 	
-	Node head;
-	
-	public BinaryTree(int value){
-		head= new Node(value);
+    int value = -1;
+    BinaryTree left, right;
+
+    public BinaryTree(int value){
+	this.value = value;
+	left = right = null;
+    }
+
+    private int checkBalance(BinaryTree head){
+	if(head == null)return 0;
+	int leftHeight = checkBalance(head.getLeft());
+	int rightHeight = checkBalance(head.getRight());
+        if(leftHeight == -1 || rightHeight == -1 || Math.abs(leftHeight - rightHeight) > 1 ){
+		return -1;
 	}
-	
-	public BinaryTree(Node head){
-		this.head = head;
+	return (1+Math.max(leftHeight, rightHeight));
+    }
+
+    public BinaryTree getLeft(){
+	return left;
+    }
+
+    public BinaryTree getRight(){
+	return right;
+    }
+
+    public int getValue(){
+	return value;
+    }
+
+    public boolean isBalanced(){
+	return (checkBalance(this) != -1);
+    }
+
+    class BSTTuple{
+	public boolean isBST;
+        public int min,max;
+
+	public BSTTuple(){
+	    isBST = true;
 	}
 
-	boolean ans;
-	public int checkBalance(Node head,boolean ans){
-		if(head==null || ans==false)return 0;
-		int left=checkBalance(head.left),right=checkBalance(head.right);
-		if(Math.abs(right-left)>1)ans=false;
-		return (left+right);	
+        public BSTTuple(boolean isBST, int min, int max){
+	    this.isBST = isBST;
+	    this.min = min;
+	    this.max = max;
 	}
+    }
 
-	public boolean isBalanced(){
-		if(head == null)return true;
-		ans = true;
-		checkBalance(head);
-		return ans;
+    private BSTTuple getBSTTuple(BinaryTree root){
+    	BSTTuple notBST = new BSTTuple(false, -1, -1);
+	if(value == -1){
+	    return new BSTTuple(true, -1, -1);
 	}
+	BSTTuple tuple = new BSTTuple();
+	if(left == null){
+	    tuple.min = value;
+	}
+	else{
+	    BSTTuple leftTuple = getBSTTuple(root.getLeft());
+            if(!leftTuple.isBST || root.getValue() < root.getLeft().getValue()){
+		return notBST;
+	    }  
+	    tuple.min = leftTuple.min;
+	}
+ 	if(right == null){
+            tuple.max = value;
+        }
+        else{
+            BSTTuple rightTuple = getBSTTuple(root.getRight());
+            if(!rightTuple.isBST || root.getValue() < root.getRight().getValue()){
+                return notBST;
+            }
+            tuple.max = rightTuple.max;
+        }
+	return tuple;
+    }
 
-	public void addToBST(Node newNode){
-		Node current = head;
-		if(head == null){
-			head = newNode;
-			return;
-		}
-		while(true){
-			if(newNode.value>=current.value){
-				if(newNode.right == null){
-					current.right = newNode;
-					newNode.parent = current;
-					break;
-				}
-				else current=newNode.right;
-			}
-			else{
-				if(newNode.left == null){
-					current.left = newNode;
-					newNode.parent = current;
-					break;
-				}
-				else current=newNode.left;	
-			}
-		}
-	}
+    public boolean isBST(){
+	BSTTuple tuple = getBSTTuple(this);
+	return tuple.isBST;
+    }
 
-	public Node createFromSortedArray(int arr[],int startIndex,int endIndex){
-		if(startIndex>endIndex)return null;
-		int mid = (startIndex+1+endIndex)/2;
-		Node head = new Node(arr[mid]);
-		Node left = createFromSortedArray(arr,startIndex,mid-1);
-		if(left != null){
-			head.left = left;
-			left.parent = head;
-		}
-		Node right = createFromSortedArray(arr,mid+1,endIndex);
-		if(right != null){
-			head.right = right;
-			right.parent = head;
-		}
-		return head;
+    public int findLCARecursively(BinaryTree root, int A, int B, BinaryTree ans){
+    	if(root == null) return 0;
+        int leftSum = 0, rightSum = 0;
+        if(root.getLeft() != null)leftSum = findLCARecursively(root.getLeft(), A, B, ans);
+	if(root.getRight() != null)rightSum = findLCARecursively(root.getRight(), A, B, ans);
+        if(leftSum == 1 && rightSum == 1){
+	    ans = root;
+	    return 2;
 	}
+	if(root.getValue() == A || root.getValue() == B){ 
+            if((leftSum + rightSum) == 1) ans = root;
+	    return (1 + leftSum + rightSum);
+        }
+	return (leftSum + rightSum);
+    }
 
-	public void addSortedArrayToBST(int arr[]){
-		head = createFromSortedArray(arr,0,arr.length-1);
-	}
-//ERROR: SHIT! DIDN'T CHECK LOGIC
-	public boolean isBSTWrongWrongWrong(Node head){
-		if(head == null) return true;
-		if(!isBST(head.left) || !isBST(head.right))return false;
-		if(head.left!=null && head.value<=head.left.value)return false;
-		if(head.right!=null && head.value>head.right.value)return false;
-		return true;
-	}
-	int prev =-1;
-	public boolean isBST(Node head){
-		boolean ans=true;
-		if(head== null)return true;
-		if(head.left!=null && !isBST(head.left))ans=false;
-		if(prev>head.value)return false;
-		prev = head.value;
-		if(head.right!=null && !isBST(head.right))ans=false;
-		return ans;
-	}
-
-	public int LCA(Node curr,Node A,Node B,Node ans){
-		if(curr==null)return 0;
-		int orValue=0;
-		if(curr==A)orValue|=1;
-		if(curr==B)orValue|=2;
-		orValue|=LCA(curr.left,A,B,ans);
-		orValue|=LCA(curr.right,A,B,ans);
-		if(orValue==3 && ans==null)ans=curr;
-		return orValue;
-	}
-
-	public Node findLCA(Node head, Node A,Node B){
-		Node ans=null;
-		LCA(head,A,B,ans);
-		return ans;
-	}
+    // Assume unique values for A & B
+    public BinaryTree LCA(int A,int B){
+	BinaryTree placeholder = new BinaryTree(-1);
+	findLCARecursively(this, A, B, placeholder);
+        return placeholder;
+    }
 }
