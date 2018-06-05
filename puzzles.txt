@@ -1,3 +1,4 @@
+https://github.com/RustanLeino/RustanLeino.github.io/blob/master/puzzles.html
 A game of 2014 cards
 Planar configuration of straight connecting lines
 Reducing nearby enemies
